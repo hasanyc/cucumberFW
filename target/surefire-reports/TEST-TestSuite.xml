@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="82.661" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="webdriver.chrome.driver" value="/Users/hbhuiyan/.cache/selenium/chromedriver/mac64/87.0.4280.88/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/hbhuiyan/Documents/GitHub/cucumberFW/target/test-classes:/Users/hbhuiyan/Documents/GitHub/cucumberFW/target/classes:/Users/hbhuiyan/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/Users/hbhuiyan/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/hbhuiyan/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/hbhuiyan/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/hbhuiyan/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/hbhuiyan/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/hbhuiyan/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/Users/hbhuiyan/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/hbhuiyan/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/hbhuiyan/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/hbhuiyan/.m2/repository/io/cucumber/cucumber-java/6.4.0/cucumber-java-6.4.0.jar:/Users/hbhuiyan/.m2/repository/io/cucumber/cucumber-core/6.4.0/cucumber-core-6.4.0.jar:/Users/hbhuiyan/.m2/repository/io/cucumber/cucumber-gherkin/6.4.0/cucumber-gherkin-6.4.0.jar:/Users/hbhuiyan/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.4.0/cucumber-gherkin-messages-6.4.0.jar:/Users/hbhuiyan/.m2/repository/io/cucumber/messages/12.4.0/messages-12.4.0.jar:/Users/hbhuiyan/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/hbhuiyan/.m2/repository/io/cucumber/cucumber-expressions/10.2.2/cucumber-expressions-10.2.2.jar:/Users/hbhuiyan/.m2/repository/io/cucumber/datatable/3.3.1/datatable-3.3.1.jar:/Users/hbhuiyan/.m2/repository/io/cucumber/cucumber-plugin/6.4.0/cucumber-plugin-6.4.0.jar:/Users/hbhuiyan/.m2/repository/io/cucumber/docstring/6.4.0/docstring-6.4.0.jar:/Users/hbhuiyan/.m2/repository/io/cucumber/html-formatter/7.2.0/html-formatter-7.2.0.jar:/Users/hbhuiyan/.m2/repository/io/cucumber/create-meta/1.1.0/create-meta-1.1.0.jar:/Users/hbhuiyan/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/hbhuiyan/.m2/repository/io/cucumber/cucumber-testng/6.4.0/cucumber-testng-6.4.0.jar:/Users/hbhuiyan/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/hbhuiyan/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/hbhuiyan/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/hbhuiyan/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/hbhuiyan/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/hbhuiyan/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/hbhuiyan/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/hbhuiyan/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/hbhuiyan/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/hbhuiyan/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/hbhuiyan/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/hbhuiyan/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/hbhuiyan/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/hbhuiyan/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/hbhuiyan/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/hbhuiyan/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/hbhuiyan/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/hbhuiyan/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/hbhuiyan/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/hbhuiyan/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/hbhuiyan/.m2/repository/io/github/bonigarcia/webdrivermanager/4.2.2/webdrivermanager-4.2.2.jar:/Users/hbhuiyan/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/hbhuiyan/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/hbhuiyan/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/hbhuiyan/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/hbhuiyan/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.1/httpclient5-5.0.1.jar:/Users/hbhuiyan/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.1/httpcore5-5.0.1.jar:/Users/hbhuiyan/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.1/httpcore5-h2-5.0.1.jar:/Users/hbhuiyan/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/hbhuiyan/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/Users/hbhuiyan/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/Users/hbhuiyan/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/hbhuiyan/.m2/repository/io/cucumber/cucumber-picocontainer/6.5.0/cucumber-picocontainer-6.5.0.jar:/Users/hbhuiyan/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/15.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/hbhuiyan/Documents/GitHub/cucumberFW/target/surefire/surefirebooter4613358554794708666.jar /Users/hbhuiyan/Documents/GitHub/cucumberFW/target/surefire 2020-12-19T11-11-41_394-jvmRun1 surefire14710466352096550137tmp surefire_012265728361172079833tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/hbhuiyan/Documents/GitHub/cucumberFW/target/test-classes:/Users/hbhuiyan/Documents/GitHub/cucumberFW/target/classes:/Users/hbhuiyan/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/Users/hbhuiyan/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/hbhuiyan/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/hbhuiyan/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/hbhuiyan/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/hbhuiyan/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/hbhuiyan/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/Users/hbhuiyan/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/hbhuiyan/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/hbhuiyan/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/hbhuiyan/.m2/repository/io/cucumber/cucumber-java/6.4.0/cucumber-java-6.4.0.jar:/Users/hbhuiyan/.m2/repository/io/cucumber/cucumber-core/6.4.0/cucumber-core-6.4.0.jar:/Users/hbhuiyan/.m2/repository/io/cucumber/cucumber-gherkin/6.4.0/cucumber-gherkin-6.4.0.jar:/Users/hbhuiyan/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.4.0/cucumber-gherkin-messages-6.4.0.jar:/Users/hbhuiyan/.m2/repository/io/cucumber/messages/12.4.0/messages-12.4.0.jar:/Users/hbhuiyan/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/hbhuiyan/.m2/repository/io/cucumber/cucumber-expressions/10.2.2/cucumber-expressions-10.2.2.jar:/Users/hbhuiyan/.m2/repository/io/cucumber/datatable/3.3.1/datatable-3.3.1.jar:/Users/hbhuiyan/.m2/repository/io/cucumber/cucumber-plugin/6.4.0/cucumber-plugin-6.4.0.jar:/Users/hbhuiyan/.m2/repository/io/cucumber/docstring/6.4.0/docstring-6.4.0.jar:/Users/hbhuiyan/.m2/repository/io/cucumber/html-formatter/7.2.0/html-formatter-7.2.0.jar:/Users/hbhuiyan/.m2/repository/io/cucumber/create-meta/1.1.0/create-meta-1.1.0.jar:/Users/hbhuiyan/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/hbhuiyan/.m2/repository/io/cucumber/cucumber-testng/6.4.0/cucumber-testng-6.4.0.jar:/Users/hbhuiyan/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/hbhuiyan/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/hbhuiyan/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/hbhuiyan/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/hbhuiyan/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/hbhuiyan/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/hbhuiyan/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/hbhuiyan/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/hbhuiyan/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/hbhuiyan/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/hbhuiyan/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/hbhuiyan/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/hbhuiyan/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/hbhuiyan/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/hbhuiyan/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/hbhuiyan/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/hbhuiyan/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/hbhuiyan/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/hbhuiyan/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/hbhuiyan/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/hbhuiyan/.m2/repository/io/github/bonigarcia/webdrivermanager/4.2.2/webdrivermanager-4.2.2.jar:/Users/hbhuiyan/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/hbhuiyan/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/hbhuiyan/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/hbhuiyan/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/hbhuiyan/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.1/httpclient5-5.0.1.jar:/Users/hbhuiyan/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.1/httpcore5-5.0.1.jar:/Users/hbhuiyan/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.1/httpcore5-h2-5.0.1.jar:/Users/hbhuiyan/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/hbhuiyan/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/Users/hbhuiyan/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/Users/hbhuiyan/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/hbhuiyan/.m2/repository/io/cucumber/cucumber-picocontainer/6.5.0/cucumber-picocontainer-6.5.0.jar:/Users/hbhuiyan/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/hbhuiyan"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/15.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/hbhuiyan/Documents/GitHub/cucumberFW"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/hbhuiyan/Documents/GitHub/cucumberFW/target/surefire/surefirebooter4613358554794708666.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="15.0.1+9"/>
+    <property name="user.name" value="hbhuiyan"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/hbhuiyan/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/1n/b327rhr55hb9z4rm5l2l9l_r0000gn/T/"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="cucumber.filter.tags" value="@smoke"/>
+    <property name="user.dir" value="/Users/hbhuiyan/Documents/GitHub/cucumberFW"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/hbhuiyan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="N/A"/>
+    <property name="java.vm.version" value="15.0.1+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Login with single username and password&quot;, &quot;Optional[Login]&quot;](1)" classname="TestRunner" time="26.088">
+    <system-out><![CDATA[I am at Booking.com HOME PAGE - This is login test
+I clicked on sign in link
+I enter email address taltekc@gmail.com
+I Clicked next button after enter the email address
+I enter password as Te$t1234
+I click on Sign in button after enter password
+I will check my name appears after sign in
+TalentTEK Consulting
+closing the browser browser...
+=============================
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 32264
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 19, 2020 11:11:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;I am going to make a payment&quot;, &quot;Optional[Payment]&quot;](2)" classname="TestRunner" time="55.627">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#s1s&quot;}&#10;  (Session info: chrome=87.0.4280.88)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Hassans-MBP.lan&apos;, ip: &apos;2604:2000:1700:5567:0:0:0:1e80%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.1&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/1n/b327rhr55hb...}, goog:chromeOptions: {debuggerAddress: localhost:50054}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 22bed593a6b3e5c5239db16fde55ebbd&#10;*** Element info: {Using=id, value=s1s}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#s1s"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Hassans-MBP.lan', ip: '2604:2000:1700:5567:0:0:0:1e80%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.1', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/1n/b327rhr55hb...}, goog:chromeOptions: {debuggerAddress: localhost:50054}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 22bed593a6b3e5c5239db16fde55ebbd
+*** Element info: {Using=id, value=s1s}
+]]></failure>
+    <system-out><![CDATA[I am going search BANGLADESH
+closing the browser browser...
+=============================
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 39302
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 19, 2020 11:12:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
