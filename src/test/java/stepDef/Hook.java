@@ -9,6 +9,8 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.testng.util.Strings;
 
+import java.net.MalformedURLException;
+
 public class Hook extends BaseUtil {
 
     public static WebDriver driver;
@@ -21,7 +23,7 @@ public class Hook extends BaseUtil {
 
 
     @Before
-    public void openBrowser(){
+    public void openBrowser() throws MalformedURLException {
         if (Strings.isNullOrEmpty(browserType)){
             browserType = defaultBrowser;
         }

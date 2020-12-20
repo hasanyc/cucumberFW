@@ -7,6 +7,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+
+import java.net.MalformedURLException;
 import java.util.concurrent.TimeUnit;
 import java.net.URL;
 
@@ -14,7 +16,7 @@ public class BaseUtil {
 
     public static WebDriver driver;
 
-    public static WebDriver initDriver(String driverType) {
+    public static WebDriver initDriver(String driverType) throws MalformedURLException {
         choseBrowser(driverType);
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
@@ -22,11 +24,11 @@ public class BaseUtil {
         return driver;
     }
 
-    public static void choseBrowser(String driverType){
+    public static void choseBrowser(String driverType) throws MalformedURLException {
         if (driverType.equalsIgnoreCase("ch")) {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
-        } else if (driverType.equalsIgnoreCase("hub")) {
+        } else if (driverType.equalsIgnoreCase("remote")) {
             DesiredCapabilities cap = DesiredCapabilities.chrome();
             cap.setCapability("platform", "LINUX");
             driver = new RemoteWebDriver(new URL ("http://localhost:4446/wd/hub"), cap);
